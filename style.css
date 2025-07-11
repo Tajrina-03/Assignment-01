@@ -9,14 +9,20 @@
   font-weight: <weight>;
   font-style: normal;
 }
+body{
+  background: linear-gradient(135deg, #f0f5f9 0%, #e6f0f5 100%);
+}
 /* Banner section style */
 header{
    background-image: url(Assets/Hero-bg.png);
    margin: auto;
 }
 nav h3{
- font: size 34px;
+ font-size:  34px;
   color:  blue;
+  font-style: bolder;
+  padding-top: 0px;
+  margin: 0px;
 }
 nav{
  
@@ -112,7 +118,7 @@ img{
   font-family: "Inter", sans-serif;
   color: #25243250;
   font-size: 20px;
-  margin: 0px;
+  margin-top: 20px;
 }
 /* Review section style */
 .review {
@@ -184,14 +190,43 @@ img{
   margin: 2px;
   color: #9e9494;
 }
-/* get in touch section style */
+/* Ready to section style */
+.ready-to div{
+  align-content: center;
+}
+.ready-to h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.box-on{
+  background-color: white;
+  text-align: center;
+  margin-left: 141px;
+  margin-right: 159px;
+  margin-top: 121px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  padding: 100px;
+}
+.ready-to p{
+  color: #000000;
+  margin-bottom: 20px;
+}
+.ready-to button{
+ 
+  margin-bottom: 20px;
+}
+
+/* newsletter section style */
 .touch{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 120px 140px; 
+  margin: 125px 145px; 
   padding: 80px 0px;
-  background-color: white;
+  
+  border-radius: ;
   
 }
 .touch-title{
@@ -228,8 +263,31 @@ input:focus,
 textarea:focus {
   outline: none;
   border-color: #a1bfdf;
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
-  
+  box-shadow: 0 0 8px rgba(0, 123, 255,0.25);
+}
+button:hover{
+  background-color: rgb(189, 186, 32);
+}
+/* Footer section style/ */
+h1{
+  font-family: "Inter", sans-serif;
+  font-size: 100px;
+  color: blue;
+}
+.footer-section{
+  text-align: center;
+}
+.anchor-tag a{
+text-decoration: none;
+color: #8987A1;
+}
+p{
+  margin-top: 8px;
+  color: #8987A1;
+}
+.text{
+  margin-bottom: 20px;
+  row-gap: 10px;
 }
 
 
