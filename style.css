@@ -27,16 +27,7 @@ nav{
      margin: 0px 100px;
     
 }
-.btn1{
-  font-family: "Raleway", sans-serif;
-  background-color: #4E47FF;
-color: #FFFFFF;
-font-weight: bold;
-padding: 10px 30px;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-}
+
 button:hover{
   background-color: rgb(189, 186, 32);
   color: black;
@@ -47,16 +38,7 @@ h2{
   font-style: normal;
   line-height: 50%;
   }
-.btn2{
-   font-family: "Raleway", sans-serif;
-  background-color: #4E47FF;
-color: #FFFFFF;
-font-weight: bold;
-padding: 10px 30px;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-}
+
 .banner{
   text-align: center;
   padding: 80px;
@@ -201,6 +183,53 @@ img{
 .date{
   margin: 2px;
   color: #9e9494;
+}
+/* get in touch section style */
+.touch{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px 140px; 
+  padding: 80px 0px;
+  background-color: white;
+  
+}
+.touch-title{
+  font-size: 80px;
+  font-weight: bold;
+  color: #000000;
+}
+.touch-form label {
+  display: block;
+
+
+}
+form{
+ display: flex;
+ flex-direction: column;
+}
+form label{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+form input,
+form textarea {
+  margin-bottom: 19px;
+  padding: 20px 30px;
+  font-size: 20px;
+  border: 1px solid #D6DDED;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #a1bfdf;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  
 }
 
 
