@@ -132,3 +132,79 @@ img{
   font-size: 20px;
   margin: 0px;
 }
+/* Review section style */
+.review {
+  margin-top: 137px;
+  padding: 60px 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.review h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.testimonial-container {
+  margin-left: 151px;
+  margin-right: 149px;
+  display: flex;
+  justify-content: center;
+   gap: 30px;
+}
+
+.testimonial-box {
+  background: white;
+  border-radius: 15px;
+  padding: 24px;
+  width: 367px;
+  height: 259px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+ }
+.testimonial-box h3 {
+  font-style: normal;
+  margin-left: 0px;
+  margin-top: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+ color: black;
+  
+}
+
+.testimonial-box .quote {
+  
+  font-style: normal;
+  color: #030101;
+  line-height: 1.6;
+  margin-top: 8px;
+  margin-left: 0px;
+
+}
+
+.testimonial-box .reviewer {
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: right;
+}
+.last-part {
+  margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px; 
+}
+.name{
+  margin: 2px;
+  color:#423434
+}
+.date{
+  margin: 2px;
+  color: #9e9494;
+}
+
+
+
+
+
+
