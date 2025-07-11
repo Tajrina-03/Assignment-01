@@ -9,6 +9,7 @@
   font-weight: <weight>;
   font-style: normal;
 }
+/* Banner section style */
 header{
    background-image: url(Assets/Hero-bg.png);
    margin: auto;
@@ -62,11 +63,13 @@ cursor: pointer;
 }
 
 /* action section style */
-section{
+
+.action-section{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 116px 141px 116px 159px;
+  gap: 100px;
 }
 button{
   font-family: "Raleway", sans-serif;
@@ -91,4 +94,41 @@ img{
   font-size: 24px;
   color: #bfbdd4;
   font-weight: normal;
+}
+/* Productive user section style  */
+.Productive-Users-Section{
+  background-color: #4E47FF10;
+  padding: 50px 80px;
+   margin: 120px 140px; 
+   border-radius: 24px;
+}
+.Productive-Users-Section h3{
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+ 
+
+}
+.ratings{
+   margin-top: 60px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.ratings h2{
+  font-family: "Inter", sans-serif;
+ 
+   color: #4E47FF;
+   font-size: 80px;
+   font-weight: bold;
+   gap: 158px;
+   margin: 0px;
+}
+.ratings p{
+  font-family: "Inter", sans-serif;
+  color: #25243250;
+  font-size: 20px;
+  margin: 0px;
 }
